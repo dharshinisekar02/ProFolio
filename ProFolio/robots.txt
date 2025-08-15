@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://ultraklensing.com/sitemap.xml
+
+# Crawl-delay (optional, adjust as needed)
+Crawl-delay: 1
+
+# Specific directives for different crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Disallow crawling of sensitive or irrelevant paths (if any)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow all content for Ultra Klensing website
+# All pages are public and should be indexed

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Ultra Klensing | Get Your Free Cleaning Quote Today</title>
+    <meta name="description" content="Contact Ultra Klensing for professional cleaning services. Get a free quote, schedule service, or ask questions. Available 24/7 with rapid response times.">
+    <meta name="canonical" content="/contact.html">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="header" id="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="index.html">Ultra Klensing</a>
+                </div>
+                
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="burger-menu" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                
+                <nav class="nav" role="navigation">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+                        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Ultra Klensing</h1>
+                <p class="page-subtitle">Ready to experience spotless spaces and seamless service? Contact us today for a free consultation and personalized cleaning quote.</p>
+            </div>
+        </section>
+
+        <!-- Quick Contact Options -->
+        <section class="quick-contact">
+            <div class="container">
+                <div class="contact-options">
+                    <div class="contact-option">
+                        <div class="contact-icon">
+                            <i data-feather="phone" aria-hidden="true"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Call Us Now</h3>
+                            <p><a href="tel:+1-555-CLEAN-UP">+1-555-CLEAN-UP</a></p>
+                            <small>Available 24/7 for emergencies</small>
+                        </div>
+                    </div>
+
+                    <div class="contact-option">
+                        <div class="contact-icon">
+                            <i data-feather="mail" aria-hidden="true"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Email Us</h3>
+                            <p><a href="mailto:info@ultraklensing.com">info@ultraklensing.com</a></p>
+                            <small>Response within 2 hours</small>
+                        </div>
+                    </div>
+
+                    <div class="contact-option">
+                        <div class="contact-icon">
+                            <i data-feather="clock" aria-hidden="true"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Business Hours</h3>
+                            <p>Monday - Friday: 8AM - 6PM</p>
+                            <small>Saturday: 9AM - 4PM</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form and Details -->
+        <section class="contact-main">
+            <div class="container">
+                <div class="contact-content">
+                    <!-- Contact Form -->
+                    <div class="contact-form-section">
+                        <h2>Get Your Free Quote</h2>
+                        <p>Fill out the form below and we'll get back to you within 24 hours with a detailed quote.</p>
+                        
+                        <form class="contact-form" action="#" method="post" novalidate>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" required aria-describedby="firstName-error">
+                                    <span class="error-message" id="firstName-error"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" required aria-describedby="lastName-error">
+                                    <span class="error-message" id="lastName-error"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" required aria-describedby="email-error">
+                                    <span class="error-message" id="email-error"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number *</label>
+                                    <input type="tel" id="phone" name="phone" required aria-describedby="phone-error">
+                                    <span class="error-message" id="phone-error"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="serviceType">Service Type *</label>
+                                    <select id="serviceType" name="serviceType" required aria-describedby="service-error">
+                                        <option value="">Select a service...</option>
+                                        <option value="residential">Residential Cleaning</option>
+                                        <option value="commercial">Commercial Cleaning</option>
+                                        <option value="medical">Medical Facility Cleaning</option>
+                                        <option value="deep-clean">Deep Cleaning</option>
+                                        <option value="move-clean">Move-In/Move-Out Cleaning</option>
+                                        <option value="floor-care">Floor Care & Polishing</option>
+                                        <option value="disinfection">Disinfection Services</option>
+                                        <option value="other">Other (specify in message)</option>
+                                    </select>
+                                    <span class="error-message" id="service-error"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="location">Location/City *</label>
+                                    <input type="text" id="location" name="location" required placeholder="City or ZIP code" aria-describedby="location-error">
+                                    <span class="error-message" id="location-error"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="propertySize">Property Size (sq ft)</label>
+                                    <input type="number" id="propertySize" name="propertySize" placeholder="Approximate square footage">
+                                </div>
+                                <div class="form-group">
+                                    <label for="preferredDate">Preferred Date</label>
+                                    <input type="date" id="preferredDate" name="preferredDate">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="frequency">Service Frequency</label>
+                                <select id="frequency" name="frequency">
+                                    <option value="">Select frequency...</option>
+                                    <option value="one-time">One-time service</option>
+                                    <option value="weekly">Weekly</option>
+                                    <option value="bi-weekly">Bi-weekly</option>
+                                    <option value="monthly">Monthly</option>
+                                    <option value="quarterly">Quarterly</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Additional Details</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Please describe your specific needs, any special requirements, or questions you may have..."></textarea>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="emergency" name="emergency">
+                                    <span class="checkmark"></span>
+                                    This is an emergency cleaning request
+                                </label>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="newsletter" name="newsletter" checked>
+                                    <span class="checkmark"></span>
+                                    I'd like to receive cleaning tips and special offers via email
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-large">Send Quote Request</button>
+                            
+                            <p class="form-note">
+                                <i data-feather="shield-check" aria-hidden="true"></i>
+                                We'll confirm your request within 24 hours. All information is kept confidential.
+                            </p>
+                        </form>
+                    </div>
+
+                    <!-- Contact Details -->
+                    <div class="contact-details-section">
+                        <h2>Visit Our Office</h2>
+                        
+                        <div class="contact-details">
+                            <div class="detail-group">
+                                <h3><i data-feather="map-pin" aria-hidden="true"></i> Address</h3>
+                                <address>
+                                    Ultra Klensing Cleaning Services<br>
+                                    123 Clean Street<br>
+                                    Metropolitan City, State 12345
+                                </address>
+                            </div>
+
+                            <div class="detail-group">
+                                <h3><i data-feather="clock" aria-hidden="true"></i> Office Hours</h3>
+                                <ul class="hours-list">
+                                    <li><span>Monday - Friday:</span> 8:00 AM - 6:00 PM</li>
+                                    <li><span>Saturday:</span> 9:00 AM - 4:00 PM</li>
+                                    <li><span>Sunday:</span> Closed (Emergency calls only)</li>
+                                </ul>
+                            </div>
+
+                            <div class="detail-group">
+                                <h3><i data-feather="phone" aria-hidden="true"></i> Contact Numbers</h3>
+                                <ul class="contact-numbers">
+                                    <li><strong>Main Line:</strong> <a href="tel:+1-555-CLEAN-UP">+1-555-CLEAN-UP</a></li>
+                                    <li><strong>Emergency:</strong> <a href="tel:+1-555-911-HELP">+1-555-911-HELP</a></li>
+                                    <li><strong>Fax:</strong> +1-555-CLEAN-FAX</li>
+                                </ul>
+                            </div>
+
+                            <div class="detail-group">
+                                <h3><i data-feather="mail" aria-hidden="true"></i> Email Contacts</h3>
+                                <ul class="email-list">
+                                    <li><strong>General Inquiries:</strong> <a href="mailto:info@ultraklensing.com">info@ultraklensing.com</a></li>
+                                    <li><strong>Quotes:</strong> <a href="mailto:quotes@ultraklensing.com">quotes@ultraklensing.com</a></li>
+                                    <li><strong>Support:</strong> <a href="mailto:support@ultraklensing.com">support@ultraklensing.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Service Areas -->
+                        <div class="service-areas">
+                            <h3>Service Areas</h3>
+                            <p>We proudly serve the following areas:</p>
+                            <ul class="areas-list">
+                                <li>Metropolitan City & Downtown</li>
+                                <li>Westfield & Surrounding Suburbs</li>
+                                <li>Northside Business District</li>
+                                <li>Airport & Industrial Area</li>
+                                <li>University District</li>
+                                <li>Coastal Communities (within 25 miles)</li>
+                            </ul>
+                            <p><small>Don't see your area? <a href="#contact-form">Contact us</a> to check availability.</small></p>
+                        </div>
+
+                        <!-- Map Placeholder -->
+                        <div class="map-placeholder">
+                            <div class="map-content">
+                                <i data-feather="map" aria-hidden="true"></i>
+                                <h4>Find Us on the Map</h4>
+                                <p>Located in the heart of Metropolitan City for easy access to all service areas.</p>
+                                <a href="https://maps.google.com/?q=123+Clean+Street,+Metropolitan+City" target="_blank" rel="noopener" class="btn btn-outline">View in Google Maps</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Emergency Services -->
+        <section class="emergency-section">
+            <div class="container">
+                <div class="emergency-content">
+                    <div class="emergency-info">
+                        <i data-feather="alert-circle" aria-hidden="true"></i>
+                        <div>
+                            <h2>24/7 Emergency Cleaning Services</h2>
+                            <p>Biohazard cleanup, flood damage, or urgent sanitization needs? Our emergency response team is available around the clock.</p>
+                        </div>
+                    </div>
+                    <div class="emergency-cta">
+                        <a href="tel:+1-555-911-HELP" class="btn btn-emergency">Emergency Hotline: +1-555-911-HELP</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">Ultra Klensing</div>
+                    <p>Ultra Klensing Cleaning Services delivers dependable, eco-friendly cleaning for medical, residential, and corporate spaces.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i data-feather="facebook" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Twitter"><i data-feather="twitter" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i data-feather="linkedin" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Instagram"><i data-feather="instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#hospital-cleaning">Hospital Cleaning</a></li>
+                        <li><a href="services.html#residential-cleaning">Residential Cleaning</a></li>
+                        <li><a href="services.html#office-cleaning">Office Cleaning</a></li>
+                        <li><a href="services.html#disinfection">Disinfection</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <address>
+                        <p><i data-feather="phone" aria-hidden="true"></i> <a href="tel:+1-555-CLEAN-UP">+1-555-CLEAN-UP</a></p>
+                        <p><i data-feather="mail" aria-hidden="true"></i> <a href="mailto:info@ultraklensing.com">info@ultraklensing.com</a></p>
+                        <p><i data-feather="map-pin" aria-hidden="true"></i> 123 Clean Street<br>Metropolitan City, State 12345</p>
+                    </address>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Ultra Klensing Cleaning Services. All rights reserved.</p>
+                </div>
+                <div class="footer-legal">
+                    <a href="about.html#terms">Terms of Service</a>
+                    <a href="about.html#privacy">Privacy Policy</a>
+                    <a href="about.html#cookies">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="script.js"></script>
+</body>
+</html>

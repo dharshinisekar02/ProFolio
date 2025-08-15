@@ -1,0 +1,200 @@
+Build a complete, responsive, multi-page static website (HTML + CSS only, JavaScript) for a professional cleaning company named “Ultra Klensing Cleaning Services”.
+
+Project requirements
+
+Tech: Pure HTML5 + CSS3 ,JS,.
+
+Files & structure:
+
+/assets/img/ (placeholders e.g., hero.jpg, team.jpg, services/*.jpg)
+/assets/icons/ (svg placeholders)
+index.html
+services.html
+pricing.html
+gallery.html
+about.html
+testimonials.html
+contact.html
+styles.css
+favicon.ico (placeholder)
+robots.txt
+sitemap.xml
+java scripts toooo
+
+Branding:
+
+Palette: Deep teal (#0F766E), mint/teal accent (#14B8A6), clean white (#FFFFFF), charcoal text (#1F2937), soft gray bg (#F7F7F7).
+
+Typography: Headings = “Poppins” or system-safe fallback; Body = “Inter” or fallback. Use @import from Google Fonts (CSS only).
+
+Logo: Simple text logo “Ultra Klensing” (no image required), styled consistently.
+
+Global layout & components
+
+Header/Nav (shared across pages):
+
+Left: text logo.
+
+Right: nav links: Home, Services, Pricing, Gallery, About, Testimonials, Contact.
+
+Sticky top on scroll.
+
+Mobile: CSS-only burger (checkbox hack) with slide-down menu.
+
+Hero section (Home):
+
+Big headline: “Spotless Spaces, Seamless Service.”
+
+Subtext: “Hospital, residential, and corporate cleaning by trained professionals.”
+
+Primary CTA button: “Get a Free Quote” → contact.html
+
+Secondary CTA: “View Services” → services.html
+
+Background image overlay with accessible contrast.
+
+Quick trust bar: small icons + text (ISO-grade supplies, Background-verified staff, 24-hr support, Eco-friendly).
+
+Footer (shared):
+
+Company blurb, quick links, services list, contact info (phone/email/location), social icon placeholders, copyright.
+
+Bottom mini-bar with “Terms • Privacy • Cookie Policy” (link to anchors on about.html).
+
+Pages & content
+
+Home (index.html):
+
+Hero + trust bar.
+
+“Why Ultra Klensing?” 3–4 value cards.
+
+“Top Services” grid (with icons) linking to services.html anchors.
+
+“Stats” band (Years in service, Clients served, Avg rating, Cities covered) using semantic <dl>.
+
+“Testimonials” preview (2–3 cards) linking to testimonials.html.
+
+“CTA band” with phone/email and micro-copy.
+
+Services (services.html):
+
+Intro paragraph.
+
+Service sections with images & bullet points:
+
+Hospital & Clinic Cleaning
+
+Residential Deep Cleaning
+
+Office & Facility Management
+
+Move-In/Move-Out Cleaning
+
+Floor Care & Polishing
+
+Disinfection & Sanitization
+
+Each card shows: short description, list of inclusions, “Request Quote” link → contact.html.
+
+Anchor IDs for each service.
+
+Pricing (pricing.html):
+
+Three tier cards (Starter, Standard, Premium) with features checklist.
+
+Add an “On-site Assessment” notice for custom quotes.
+
+Small FAQ section (CSS-only accordion using <details>/<summary>).
+
+Gallery (gallery.html):
+
+Masonry-like responsive grid (pure CSS) for before/after placeholders.
+
+Each item: caption + category tag.
+
+About (about.html):
+
+Company story, mission, values (quality, safety, sustainability).
+
+Team section with two or three member placeholders.
+
+Compliance & safety badges row (icon placeholders).
+
+“Sustainability” callout (eco-friendly supplies, water-saving methods).
+
+Testimonials (testimonials.html):
+
+Grid of testimonials with client name, role, star rating (CSS-only stars), short quote.
+
+Highlight carousel feel using horizontally scrollable cards (pure CSS, no JS).
+
+Contact (contact.html):
+
+Contact details (phone tel: link, email mailto:, map placeholder).
+
+Contact form (HTML-only): Name, Email, Phone, Service Type (select), Location, Preferred Date, Message.
+
+Form should have client-side HTML5 validation attributes and point to a dummy action (action="#") with method="post". Add note: “We’ll confirm within 24 hours.”
+
+Accessibility & SEO
+
+Semantic HTML5 structure: <header> <nav> <main> <section> <article> <footer>.
+
+Alt text for all images; visible focus styles for links/buttons; color contrast AA+.
+
+Skip-to-content link at top.
+
+Meta tags on all pages: title (unique), description, canonical.
+
+Open Graph & Twitter Card tags on index.html.
+
+Structured data (JSON-LD on index.html):
+
+Organization with name, url, sameAs
+
+LocalBusiness (CleaningService) with address, telephone, areaServed, openingHours.
+
+robots.txt allowing all, and sitemap.xml with all page URLs.
+
+Design & UI details
+
+Modern, airy layout with generous spacing and rounded corners.
+
+Card components with subtle shadows and hover lift.
+
+Buttons: primary (teal) and secondary (outline).
+
+Responsive grids using CSS Grid/Flex (2–4 columns depending on viewport).
+
+Pure CSS burger menu & pure CSS accordion (details/summary).
+
+Utility classes in CSS for spacing/visually-hidden.
+
+Sample copy (use/edit as needed)
+
+Tagline: “Spotless Spaces, Seamless Service.”
+
+Subtext: “We provide professional housekeeping and facility management for hospitals, homes, and companies—ensuring hygiene, safety, and a spotless environment.”
+
+CTA: “Get a Free Quote”
+
+Footer blurb: “Ultra Klensing Cleaning Services delivers dependable, eco-friendly cleaning for medical, residential, and corporate spaces.”
+
+Finishing touches
+
+Consistent favicon & title across pages.
+
+Active nav link styling.
+
+Smooth anchor scrolling using CSS scroll-behavior.
+
+Print-friendly stylesheet tweaks for quotes/invoices (basic).
+
+Validate HTML & CSS; keep code neatly commented.
+
+Deliver all pages fully written with realistic placeholder content and stock-image filenames, styled by a single styles.css.
+
+If you want, I can also generate the full code here directly so you can paste it into Replit—just say the word.
+
+Do you like this personality?
